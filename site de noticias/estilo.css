@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#titulo {
+    width: 50%;
+    font-size: 30px;
+    margin: auto 0;
+    color: rgb(53, 68, 95);
+
+}
+
+#menu ul li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 3%;
+    background-color: rgb(53, 68, 95);
+
+
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu ul li:hover {
+    background-color: #fff;
+}
+
+#menu ul li a:hover {
+    color: rgb(53, 68, 95);
+}
+
+#menu {
+    text-align: right;
+    width: 50%;
+    margin: auto 0;
+}
+
+section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 3% auto;
+
+}
+
+article {
+
+    width: 30%;
+    margin: 2% 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+article img {
+    max-width: 100%;
+}
+
+article a {
+    text-decoration: none;
+    background-color: #1a191c;
+    color: #fafafa;
+    display: flex;
+float: right;
+    width: 30%;
+    padding: 1%;
+}
+
+article img,h2,p{
+    margin-bottom: 20px;
+}
+
+#fundo-cursos {
+    background-color: #b8d0d0;
+    margin: 1% 0;
+}
+
+#fundo-eventos {
+    background-color: #c6d4a8;
+    margin: 1% 0;
+}
+
+#fundo-tecnologia {
+    background-color: #654acf;
+    margin: 1% 0;
+}
+
+#fundo-educacao {
+    background-color: #d39697;
+    margin: 1% 0;
+}
+
+
+
+footer {
+    background-color: rgb(37, 35, 35);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    color: #b8d0d0;
+    font: 20px;
+}
